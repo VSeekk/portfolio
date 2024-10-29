@@ -15,7 +15,7 @@
                 <img src="images/logo.png" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
-                    <li><a href="#about">about</a></li>
+                    <li><a href="#about">About Me</a></li>
                     <li><a href="#services">Service</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -24,8 +24,9 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Full-stack/python Devolover</p>
+                
                 <h1>Hi, I'm <span>E Vishnu</span><br> Prasad from <br>India</h1>
+                <p>Aspiring Software Developer || Skilled in Python <br> Data Analysis|| Machine Learning</p>
             </div>
         </div>
     </div>
@@ -38,38 +39,51 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
-                    <p> I am an aspiring professional with a strong foundation in
-                        Full-stack Development and Python Development. My BSc UG
-                        results reflect my dedication with an impressive score in
-                        the subject. I possess a comprehensive skill set including
-                        Python, Java, Django, MySQL, HTML, and CSS. Eager to
-                        leverage my skills and knowledge in a challenging role to
-                        contribute effectively to a dynamic team.</p>
+                    <p> Results-focused Python Developer with expertise in building scalable applications, streamlining workflows,
+                        and deploying advanced machine learning models. Demonstrates proficiency in Python, Django, and front-end
+                        technologies (HTML, CSS, JavaScript) with a proven ability to drive efficiency, optimize performance, and
+                        elevate user experiences. Recognized for achieving over 95% accuracy in data modeling and delivering
+                        impactful, data-driven insights. Dedicated to producing high-quality, maintainable code that consistently meets
+                        business objectives.</p>
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('Experience')">Experience/Courses</p>
+                        <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+                        
+                        <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
                         <p class="tab-links" onclick="opentab('Education')">Education</p>
 
                     </div>
-                    <div class="tab-contents active-tab" id="Skills">
+                    <div class="tab-contents" id="Skills">
                         <ul>
-                            <li><span>Web Development</span> <br>Designing Web Applications</li>
-                            <li><span>Python Development</span><br>Programming using python</li>
-                            <li><span>Java Development</span><br>Programming using Java</li>
-                            <li><span>Database</span><br>Manageing databases</li>
                             <li><span>Data Analysis</span><br>Analysing data from Datasets</li>
+                            <li><span>Python Developer</span><br>Developing programs using Python</li>
+                            <li><span>Web Developer</span> <br>Designing Web Applications</li>
+                            <li><span>Web Scrapping</span> <br>Scrapping data from Multiple sites</li>
+                            <li><span>Java Developer</span><br>Developing programs using Java</li>
+                            <li><span>Database/SQL</span><br>Manageing databases</li>
+                            
                         </ul>
                     </div>
-                    <div class="tab-contents" id="Experience">
+                    <div class="tab-contents active-tab " id="Experience">
                         <ul>
-                            <li><span>2024</span><br>Data Science and Machine Learning internship by YBI foundation</li>
-                            <li><span>2023</span> <br>Python for Machine Learning & Data Science MasterClass by Jose Portilla in Udemy
-                                </li>
+                            <li><span id="ex">June 2024<br>Intern - Data Science and Machine Learning</span></li>
+                            <li>YBI Foundation, Delhi | 2024 June </li>
+                            <li>Constructed machine learning models that improved prediction accuracy by 15% for business-critical use cases. <br>
+                                Preprocessed and engineered datasets, reducing processing time by 20% and boosting model efficiency. <br>
+                               Automated data collection and training pipelines, decreasing manual intervention by 30% and accelerating operational workflows.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
                             
-                            <li><span>2023</span><br>100 Days of Code: The Complete Python Pro Bootcamp for
-                                2023 Udemy</li>
-                            <li><span>2023</span><br>The Complete 2023 Web Development Bootcamp Udemy</li>
-                            <li><span>2023</span><br>The Complete 2023 Web Development Bootcamp Udemy</li>
+                            
+                            <li><span>SEPT 2024</span><br>100 Days of Code: The Complete Python Pro Bootcamp Udemy</li>
+                            <li><span>SEPT 2024</span><br>The Complete 2023 Web Development Bootcamp Udemy</li>
+                            <li><span>JUNE 2024</span><br>Data Science with Python bootcamp by LetsUpgrade</li>
+                            <li><span>JUNE 2024</span><br>Data Science with Python bootcamp by LetsUpgrade</li>
+                            <li><span>FEB 2024</span> <br>Python for Machine Learning & Data Science MasterClass by Jose Portilla in Udemy
+                            </li>
+                            <li><span>FEB 2024</span><br>Python librarires by LetsUpgrade</li>
                             
                         </ul>
                     </div>
@@ -111,6 +125,12 @@
                     <p>Analysing Datasets  and  extracting need infromation from the datasets.</p>
                     <a href="#">Learn more</a>
                 </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web Scrapping </h2>
+                    <p>Scrapping data and insights from different websites like ecommerce, job portals and to store the data.</p>
+                    <a href="#">Learn more</a>
+                </div>
             </div>
 
         </div>
@@ -118,23 +138,32 @@
 <!---------------------------------------portfolio--------------------------------------------->
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title">My Works</h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/pizza.jpg" alt="">
                     <div class="layer">
                         <h3>Pizza House</h3>
-                        <p>It is clone website of pizza-hut in which a customer can order to get delivery and it  can also be used as menu and food can be ordered in the restaurent it self.</p>
-                        <a href="https://github.com/VSeekk/project-pizza-house"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <p>Engineered a full-stack web application with Django and Python to emulate Pizza Hut’s online platform, integrating dynamic order management and payment processing systems.</p>
+                        <a href="https://vseekk.github.io/PizzaHouse/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/snakepong.jpeg" alt="">
                     <div class="layer">
                         <h3>Games</h3>
-                        <p>Games created using simple python development .<br>1. Nokia snake game <br>2. 2-player Pong game.</p>
+                        <p>Interactive Python games created using turtle and pygame, showcasing proficiency in game mechanics and logic.</p>
                         <a href="https://github.com/VSeekk/Snake-game"><i class="fa-solid fa-up-right-from-square"></i></a>
                         <a href="https://github.com/VSeekk/pong-game"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web scrape.webp" alt="">
+                    <div class="layer">
+                        <h3>Web Scrapping projects</h3>
+                        <p>ProjectsConducted web scraping and data extraction on over 1 million records from e-commerce platforms using Selenium and BeautifulSoup, yielding insights thatimproved pricing accuracy by 20%.</p>
+                        <a href="https://github.com/stars/VSeekk/lists/web-scrapping"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        
                     </div>
                 </div>
                 <div class="work">
@@ -148,7 +177,7 @@
                
 
             </div>
-            <a href="https://github.com/VSeekk" class="btn">See more</a>
+            <a href="https://github.com/VSeekk" class="btn">See more On My Github</a>
 
         </div>
 
@@ -167,7 +196,7 @@
                     <a href="https://www.instagram.com/_v_i_s_hz/"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://x.com/SeekeerV"><i class="fa-brands fa-x-twitter"></i></a>
                 </div>
-                <a href="images/my cv.pdf" download class="btn btn2">Download CV</a>
+                <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
 
             </div>
             <div class="contact-right">
